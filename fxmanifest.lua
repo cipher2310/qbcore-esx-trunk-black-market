@@ -11,20 +11,20 @@ shared_scripts {
 }
 
 server_scripts {
-    'server/server.lua'
+    'server.lua'
 }
 
 client_scripts {
-    'client/client.lua'
+    'client.lua'
 }
 
 ui_page {
-	'ui/index.html'
+	'index.html'
 }
 
 files {
-	'ui/backend.js',
-	'ui/index.html',
-	'ui/*.css',
-	'ui/images/*.png'
+	'backend.js',
+	'index.html',
+	'*.css',
+	'images/*.png'
 }
